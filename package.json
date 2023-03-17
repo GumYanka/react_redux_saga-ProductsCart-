@@ -1,7 +1,7 @@
 {
     "private": true,
     "prettier": "./.prettierrc.js",
-    "homepage": "https://yankaaa.github.io/react_redux_saga",
+    "homepage": "https://yankaaa.github.io/react_redux_saga-ProductsCart-",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
