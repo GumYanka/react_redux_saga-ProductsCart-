@@ -1,6 +1,6 @@
-**React TypeScript Redux Toolkit Saga Tailwind Shopping Cart**
+# React TypeScript Redux Toolkit Saga Tailwind Shopping Cart
 
-# This project is a simple e-commerce shopping cart built with React, TypeScript, Redux Toolkit, Redux Saga, and Tailwind CSS. It gets a list of products via API, allows adding and deleting products in the basket, displays the total sum of all products in the basket, and saves the state of the basket between user sessions using local storage.
+This project is a simple e-commerce shopping cart built with React, TypeScript, Redux Toolkit, Redux Saga, and Tailwind CSS. It gets a list of products via API, allows adding and deleting products in the basket, displays the total sum of all products in the basket, and saves the state of the basket between user sessions using local storage.
 
 Table of Contents
 
