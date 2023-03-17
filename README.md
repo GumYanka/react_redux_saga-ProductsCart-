@@ -4,11 +4,9 @@ This project is a simple e-commerce shopping cart built with React, TypeScript, 
 
 Table of Contents
 
--   Installation
 -   Usage
--   Folder Structure
 -   Technologies Used
--   License
+-   Features
 
 # Usage
 
