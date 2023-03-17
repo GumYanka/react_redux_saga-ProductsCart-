@@ -1,7 +1,7 @@
 {
     "private": true,
     "prettier": "./.prettierrc.js",
-    "homepage": "https://yankaaa.github.io/react_redux_saga-ProductsCart-",
+    "homepage": "https://yankaaa.github.io/react_redux_saga",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -9,7 +9,7 @@
         "lint": "next lint --fix",
         "format": "prettier --write .",
         "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-        "deploy": "gh-pages -d out"
+        "deploy": "next build && next export && touch out/.nojekyll && npx gh-pages -d out"
     },
     "dependencies": {
         "@heroicons/react": "^2.0.16",
@@ -39,6 +39,7 @@
         "tailwindcss": "^3.2.7"
     },
     "devDependencies": {
+        "eslint-plugin-react": "^7.32.2",
         "typescript": "4.9.5"
     }
 }
