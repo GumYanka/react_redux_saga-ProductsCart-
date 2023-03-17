@@ -30,7 +30,7 @@ const ProductPage = () => {
   ]
 
   return (
-    <section className='max-w-5xl w-[90%] h-screen my-8 mx-auto py-24'>
+    <section className='max-w-5xl w-[90%] min-h-screen my-8 mx-auto py-24'>
       {item ? (
         <Card>
           <ul className='m-0 p-0 list-none'>

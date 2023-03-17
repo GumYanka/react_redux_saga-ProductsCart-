@@ -16,7 +16,7 @@ function ProductsList() {
   }, [])
 
   return (
-    <section className='max-w-5xl w-[90%] h-full my-8 mx-auto py-24'>
+    <section className='max-w-5xl w-[90%] min-h-screen h-full my-8 mx-auto py-24'>
       <Card>
         <ul className='m-0 p-0 list-none'>
           {products?.products?.products?.map((item: any) => (
